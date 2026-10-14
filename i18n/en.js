@@ -18,7 +18,7 @@ export const en = {
   "about.p4": "On longer-running projects I took on informal technical leadership — running code reviews, refinements, mentoring developers, and driving architectural decisions. That role was recognized by the teams, even without a formal title.",
 
   // Projects
-  "projects.heading": "Projects",
+  "projects.heading": "Personal Projects",
   "projects.cta": "View on GitHub →",
 
   "project.anarapport.desc":    "Desktop viewer for textile rapport patterns: zoom/pan, three tiling modes, image analysis, approximate CMYK-gamut check, and PNG/JPEG export.",

@@ -18,7 +18,7 @@ export const pt = {
   "about.p4": "Em projetos mais longos, assumi liderança técnica informal — conduzindo code reviews, refinamentos, mentoria e decisões de arquitetura. Essa atuação foi reconhecida pelos times, mesmo sem formalização em cargo.",
 
   // Projects
-  "projects.heading": "Projetos",
+  "projects.heading": "Projetos Pessoais",
   "projects.cta": "Ver no GitHub →",
 
   "project.anarapport.desc":    "Visualizador desktop de padrões têxteis (rapport): zoom/pan, três modos de repetição, análise de imagem, verificação de gamut CMYK e exportação PNG/JPEG.",
