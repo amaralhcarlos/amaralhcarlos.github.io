@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlos Henrique do Amaral — Backend Engineer</title>
+<meta name="description" content="Backend Engineer — Java, Go, Kafka, Microservices. Distributed systems for high-scale environments.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">CA<span class="dot">.</span></a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#about" data-i18n="nav.about">Sobre</a>
+      <a href="#projects" data-i18n="nav.projects">Projetos</a>
+      <a href="#contact" data-i18n="nav.contact">Contato</a>
+    </nav>
+
+    <div class="nav-right">
+      <div class="lang-toggle" id="lang-toggle" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="pt">PT</button>
+        <span class="lang-sep">|</span>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="hero">
+    <div class="hero-inner fade-in">
+      <h1 class="hero-name" data-i18n="hero.name">Carlos Henrique do Amaral</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Backend Engineer — Java · Go · Kafka · Microsserviços</p>
+      <p class="hero-tagline" data-i18n="hero.tagline">Construo sistemas distribuídos para ambientes de alta escala — de telecom a mercado financeiro.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta.projects">Ver Projetos</a>
+        <a href="https://linkedin.com/in/amaralhcarlos" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta.linkedin">LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-inner fade-in">
+      <h2 data-i18n="about.heading">Sobre</h2>
+      <div class="about-text">
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+        <p data-i18n="about.p3"></p>
+        <p data-i18n="about.p4"></p>
+      </div>
+
+      <div class="skills">
+        <span class="pill">Java 17+</span>
+        <span class="pill">Spring Boot</span>
+        <span class="pill">Spring Batch</span>
+        <span class="pill">Apache Kafka</span>
+        <span class="pill">Go / Gin</span>
+        <span class="pill">PostgreSQL</span>
+        <span class="pill">Oracle</span>
+        <span class="pill">Redis</span>
+        <span class="pill">TimescaleDB</span>
+        <span class="pill">Docker</span>
+        <span class="pill">Kubernetes</span>
+        <span class="pill">OpenShift</span>
+        <span class="pill">Hexagonal Architecture</span>
+        <span class="pill">REST APIs</span>
+        <span class="pill">Microservices</span>
+        <span class="pill">SonarQube</span>
+        <span class="pill">Fortify</span>
+        <span class="pill">OWASP</span>
+        <span class="pill">CI/CD</span>
+        <span class="pill">Prometheus</span>
+        <span class="pill">Grafana</span>
+        <span class="pill">Angular</span>
+        <span class="pill">Python</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-inner fade-in">
+      <h2 data-i18n="projects.heading">Projetos</h2>
+
+      <div class="project-grid">
+
+        <article class="card">
+          <h3><a href="https://github.com/amaralhcarlos/anarapport" target="_blank" rel="noopener">AnaRapport</a></h3>
+          <p class="card-desc" data-i18n="project.anarapport.desc"></p>
+          <div class="card-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Swing</span>
+            <span class="tag">Maven</span>
+            <span class="tag">jpackage</span>
+          </div>
+          <p class="card-context" data-i18n="project.anarapport.context"></p>
+          <a href="https://github.com/amaralhcarlos/anarapport" target="_blank" rel="noopener" class="card-link" data-i18n="projects.cta">Ver no GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/amaralhcarlos/scribin" target="_blank" rel="noopener">Scribin</a></h3>
+          <p class="card-desc" data-i18n="project.scribin.desc"></p>
+          <div class="card-tags">
+            <span class="tag">Go</span>
+            <span class="tag">CLI</span>
+            <span class="tag">TUI</span>
+            <span class="tag">ffmpeg</span>
+          </div>
+          <p class="card-context" data-i18n="project.scribin.context"></p>
+          <a href="https://github.com/amaralhcarlos/scribin" target="_blank" rel="noopener" class="card-link" data-i18n="projects.cta">Ver no GitHub →</a>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/amaralhcarlos/stream-snag" target="_blank" rel="noopener">Stream Snag</a></h3>
+          <p class="card-desc" data-i18n="project.streamsnag.desc"></p>
+          <div class="card-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Browser Extension</span>
+            <span class="tag">Chrome</span>
+            <span class="tag">Network API</span>
+          </div>
+          <p class="card-context" data-i18n="project.streamsnag.context"></p>
+          <a href="https://github.com/amaralhcarlos/stream-snag" target="_blank" rel="noopener" class="card-link" data-i18n="projects.cta">Ver no GitHub →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-inner fade-in">
+      <h2 data-i18n="contact.heading">Contato</h2>
+      <p class="contact-line" data-i18n="contact.line"></p>
+      <div class="contact-links">
+        <a href="mailto:amaralhcarlos@gmail.com">amaralhcarlos@gmail.com</a>
+        <a href="https://linkedin.com/in/amaralhcarlos" target="_blank" rel="noopener">linkedin.com/in/amaralhcarlos</a>
+        <a href="https://github.com/amaralhcarlos" target="_blank" rel="noopener">github.com/amaralhcarlos</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p data-i18n="footer.text">© 2026 Carlos Henrique do Amaral · Built with HTML, CSS & JS</p>
+</footer>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
